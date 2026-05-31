@@ -2,9 +2,9 @@
 
 ---
 
-# operator-skills
+# operator-skills-codex
 
-Skills de Claude para builders y operadores. Especificación de producto, scoping de delivery, análisis técnico y workflows operativos. Método antes que voz. Estructura antes que estilo.
+Skills de Codex para builders y operadores. Especificación de producto, scoping de delivery, análisis técnico y workflows operativos. Método antes que voz. Estructura antes que estilo.
 
 Construido a partir del método detrás de *Manual de ataraxia digital: imperturbabilidad entre tanto scrum* de Federico Imparatta (Montevideo, 2025). El manual aporta la filosofía; estos skills son su expresión operativa.
 
@@ -24,34 +24,34 @@ Ver [`PHILOSOPHY.es.md`](PHILOSOPHY.es.md) para los diez conceptos centrales que
 
 ### product
 
-- **[prd-authoring](product/prd-authoring)**. Escribir un PRD como hipótesis, no como spec. Problema, usuario, alcance, criterios de aceptación, rollout, instrumentación, preguntas abiertas.
-- **[feature-proposal](product/feature-proposal)**. Proponer una feature antes del scoping. Framing del problema, dirección propuesta, impacto esperado, costo de validación.
-- **[analytics-instrumentation](product/analytics-instrumentation)**. Taxonomía de eventos, convenciones de naming, definiciones de funnel, e instrumentación desde cero.
-- **[ux-audit](product/ux-audit)**. Método de auditoría heurística que produce tickets accionables ranqueados por severidad y superficie.
-- **[roadmap-from-data](product/roadmap-from-data)**. Convertir dashboards y comportamiento de usuario en una secuencia priorizada. Evitar el teatro del backlog.
+- **[prd-authoring](prd-authoring)**. Escribir un PRD como hipótesis, no como spec. Problema, usuario, alcance, criterios de aceptación, rollout, instrumentación, preguntas abiertas.
+- **[feature-proposal](feature-proposal)**. Proponer una feature antes del scoping. Framing del problema, dirección propuesta, impacto esperado, costo de validación.
+- **[analytics-instrumentation](analytics-instrumentation)**. Taxonomía de eventos, convenciones de naming, definiciones de funnel, e instrumentación desde cero.
+- **[ux-audit](ux-audit)**. Método de auditoría heurística que produce tickets accionables ranqueados por severidad y superficie.
+- **[roadmap-from-data](roadmap-from-data)**. Convertir dashboards y comportamiento de usuario en una secuencia priorizada. Evitar el teatro del backlog.
 
 ### delivery
 
-- **[proposal-scoping](delivery/proposal-scoping)**. Scoping de trabajo de desarrollo custom. Fases, modelo comercial, alcance dentro y fuera de manera explícita.
-- **[migration-spec](delivery/migration-spec)**. Método de migración entre plataformas. Inventario, matriz de paridad, cutover, rollback.
-- **[dashboard-spec](delivery/dashboard-spec)**. Especificación de herramientas internas y dashboards de admin. Modelo de datos, vistas, roles, estados, manejo de vacío y error.
-- **[rfp-response](delivery/rfp-response)**. Respuesta estructurada a RFPs gubernamentales y empresariales. Matriz de cumplimiento, enfoque técnico, equipo, precio.
-- **[security-questionnaire](delivery/security-questionnaire)**. Responder cuestionarios de seguridad de proveedores sin sobrevender.
+- **[proposal-scoping](proposal-scoping)**. Scoping de trabajo de desarrollo custom. Fases, modelo comercial, alcance dentro y fuera de manera explícita.
+- **[migration-spec](migration-spec)**. Método de migración entre plataformas. Inventario, matriz de paridad, cutover, rollback.
+- **[dashboard-spec](dashboard-spec)**. Especificación de herramientas internas y dashboards de admin. Modelo de datos, vistas, roles, estados, manejo de vacío y error.
+- **[rfp-response](rfp-response)**. Respuesta estructurada a RFPs gubernamentales y empresariales. Matriz de cumplimiento, enfoque técnico, equipo, precio.
+- **[security-questionnaire](security-questionnaire)**. Responder cuestionarios de seguridad de proveedores sin sobrevender.
 
 ### analysis
 
-- **[data-reconciliation](analysis/data-reconciliation)**. Cuando dos fuentes no cierran, encontrar la diferencia. Schema, ventana temporal, definición, muestreo, causa raíz.
-- **[red-team-review](analysis/red-team-review)**. Revisión adversarial de propuestas, arquitecturas, sistemas de agentes. Modos de falla estructurados, no intuiciones.
-- **[candidate-evaluation](analysis/candidate-evaluation)**. Evaluar un candidato contra una rúbrica de juicio, entrega, profundidad, ownership, soltura frente al error, comunicación.
-- **[vendor-evaluation](analysis/vendor-evaluation)**. Evaluar un proveedor por riesgo de entrega, precio justo, fit de stack, términos comerciales, referencias, costo de switching.
-- **[post-mortem](analysis/post-mortem)**. Método retrospectivo para trabajo entregado, trabajo fallido, o incidentes. Línea de tiempo, factores contribuyentes, action items, sin culpables.
+- **[data-reconciliation](data-reconciliation)**. Cuando dos fuentes no cierran, encontrar la diferencia. Schema, ventana temporal, definición, muestreo, causa raíz.
+- **[red-team-review](red-team-review)**. Revisión adversarial de propuestas, arquitecturas, sistemas de agentes. Modos de falla estructurados, no intuiciones.
+- **[candidate-evaluation](candidate-evaluation)**. Evaluar un candidato contra una rúbrica de juicio, entrega, profundidad, ownership, soltura frente al error, comunicación.
+- **[vendor-evaluation](vendor-evaluation)**. Evaluar un proveedor por riesgo de entrega, precio justo, fit de stack, términos comerciales, referencias, costo de switching.
+- **[post-mortem](post-mortem)**. Método retrospectivo para trabajo entregado, trabajo fallido, o incidentes. Línea de tiempo, factores contribuyentes, action items, sin culpables.
 
 ### ops
 
-- **[agenda-synthesis](ops/agenda-synthesis)**. Sintetizar una agenda diaria o semanal a través de calendarios y organizaciones.
-- **[ticket-triage](ops/ticket-triage)**. Triage en Linear y Jira. Categorización, secuenciado, y cuándo rechazar.
-- **[documentation-extraction](ops/documentation-extraction)**. Convertir tickets cerrados, threads y conversaciones en documentación funcional.
-- **[meeting-prep](ops/meeting-prep)**. Briefing antes de una reunión. Stakeholders, historia, outcome deseado, objeciones, movida de apertura.
+- **[agenda-synthesis](agenda-synthesis)**. Sintetizar una agenda diaria o semanal a través de calendarios y organizaciones.
+- **[ticket-triage](ticket-triage)**. Triage en Linear y Jira. Categorización, secuenciado, y cuándo rechazar.
+- **[documentation-extraction](documentation-extraction)**. Convertir tickets cerrados, threads y conversaciones en documentación funcional.
+- **[meeting-prep](meeting-prep)**. Briefing antes de una reunión. Stakeholders, historia, outcome deseado, objeciones, movida de apertura.
 
 ## Voice rules
 
@@ -69,22 +69,28 @@ Cada skill del repo aplica las mismas voice rules. Son el hilo conductor.
 
 ## Instalación
 
-Estos skills están pensados para [Claude Code](https://claude.com/claude-code), pero el método y los templates son agnósticos respecto a la herramienta.
+Estos skills están pensados para Codex, pero el método y los templates son agnósticos respecto a la herramienta.
 
-### Claude Code
+### Codex
 
-Cloná el repo en el directorio `.claude/skills/` de tu proyecto, o referenciá skills individuales directamente:
+Cloná el repo donde prefieras, y después hacé symlink o copia de los directorios de skills dentro de `~/.codex/skills/`:
 
 ```bash
-git clone https://github.com/federicoimparatta/operator-skills.git ~/operator-skills
+git clone https://github.com/federicoimparatta/operator-skills-codex.git ~/operator-skills-codex
 ```
 
 Después, cualquiera de estas dos opciones:
 
-- **Por proyecto.** Symlink o copia los skills que querés dentro de `.claude/skills/` en un proyecto específico.
-- **Global.** Symlink o copia dentro de `~/.claude/skills/` para tenerlos disponibles en todos los proyectos.
+- **Skills seleccionados.** Symlink o copia solo los skills que querés dentro de `~/.codex/skills/`.
+- **Todos los skills.** Symlink o copia todos los directorios top-level de skills dentro de `~/.codex/skills/`.
 
-Cada skill es una carpeta con un `SKILL.md` que Claude Code carga bajo demanda.
+O instalá todos los skills con:
+
+```bash
+~/operator-skills-codex/bootstrap.sh
+```
+
+Cada skill es una carpeta con un `SKILL.md` que Codex carga bajo demanda.
 
 ### Otras herramientas
 

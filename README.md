@@ -2,9 +2,9 @@
 
 ---
 
-# operator-skills
+# operator-skills-codex
 
-Claude skills for builders and operators. Product specification, delivery scoping, technical analysis, and operational workflows. Method over voice. Structure over style.
+Codex skills for builders and operators. Product specification, delivery scoping, technical analysis, and operational workflows. Method over voice. Structure over style.
 
 Built from the method behind *Manual de ataraxia digital: imperturbabilidad entre tanto scrum* by Federico Imparatta (Montevideo, 2025). The handbook provides the philosophy; these skills are its operational expression.
 
@@ -24,34 +24,34 @@ See [`PHILOSOPHY.md`](PHILOSOPHY.md) for the ten core concepts that shape every 
 
 ### product
 
-- **[prd-authoring](product/prd-authoring)**. Write a PRD as a hypothesis, not a spec. Problem, user, scope, acceptance criteria, rollout, instrumentation, open questions.
-- **[feature-proposal](product/feature-proposal)**. Pitch a feature before scoping. Problem framing, proposed direction, expected impact, cost to validate.
-- **[analytics-instrumentation](product/analytics-instrumentation)**. Event taxonomy, naming conventions, funnel definitions, and instrumentation from scratch.
-- **[ux-audit](product/ux-audit)**. Heuristic audit method that produces actionable tickets ranked by severity and surface area.
-- **[roadmap-from-data](product/roadmap-from-data)**. Convert dashboards and user behavior into a prioritized sequence. Avoid backlog theater.
+- **[prd-authoring](prd-authoring)**. Write a PRD as a hypothesis, not a spec. Problem, user, scope, acceptance criteria, rollout, instrumentation, open questions.
+- **[feature-proposal](feature-proposal)**. Pitch a feature before scoping. Problem framing, proposed direction, expected impact, cost to validate.
+- **[analytics-instrumentation](analytics-instrumentation)**. Event taxonomy, naming conventions, funnel definitions, and instrumentation from scratch.
+- **[ux-audit](ux-audit)**. Heuristic audit method that produces actionable tickets ranked by severity and surface area.
+- **[roadmap-from-data](roadmap-from-data)**. Convert dashboards and user behavior into a prioritized sequence. Avoid backlog theater.
 
 ### delivery
 
-- **[proposal-scoping](delivery/proposal-scoping)**. Scope custom dev work. Phases, commercial model, explicit in-scope and out-of-scope.
-- **[migration-spec](delivery/migration-spec)**. Platform-to-platform migration method. Inventory, parity matrix, cutover, rollback.
-- **[dashboard-spec](delivery/dashboard-spec)**. Specify internal tools and admin dashboards. Data model, views, roles, states, empty and error handling.
-- **[rfp-response](delivery/rfp-response)**. Structured response to government and enterprise RFPs. Compliance matrix, technical approach, team, pricing.
-- **[security-questionnaire](delivery/security-questionnaire)**. Answer vendor security assessments without overclaiming.
+- **[proposal-scoping](proposal-scoping)**. Scope custom dev work. Phases, commercial model, explicit in-scope and out-of-scope.
+- **[migration-spec](migration-spec)**. Platform-to-platform migration method. Inventory, parity matrix, cutover, rollback.
+- **[dashboard-spec](dashboard-spec)**. Specify internal tools and admin dashboards. Data model, views, roles, states, empty and error handling.
+- **[rfp-response](rfp-response)**. Structured response to government and enterprise RFPs. Compliance matrix, technical approach, team, pricing.
+- **[security-questionnaire](security-questionnaire)**. Answer vendor security assessments without overclaiming.
 
 ### analysis
 
-- **[data-reconciliation](analysis/data-reconciliation)**. When two sources disagree, find the gap. Schema, time window, definition, sampling, root cause.
-- **[red-team-review](analysis/red-team-review)**. Adversarial review of proposals, architectures, agent systems. Structured failure modes, not vibes.
-- **[candidate-evaluation](analysis/candidate-evaluation)**. Score a candidate against a rubric of judgment, delivery, depth, ownership, failure fluency, communication.
-- **[vendor-evaluation](analysis/vendor-evaluation)**. Score a vendor on delivery risk, pricing fairness, stack fit, commercial terms, references, switching cost.
-- **[post-mortem](analysis/post-mortem)**. Retrospective method for shipped work, failed work, or incidents. Timeline, contributing factors, action items, no blame.
+- **[data-reconciliation](data-reconciliation)**. When two sources disagree, find the gap. Schema, time window, definition, sampling, root cause.
+- **[red-team-review](red-team-review)**. Adversarial review of proposals, architectures, agent systems. Structured failure modes, not vibes.
+- **[candidate-evaluation](candidate-evaluation)**. Score a candidate against a rubric of judgment, delivery, depth, ownership, failure fluency, communication.
+- **[vendor-evaluation](vendor-evaluation)**. Score a vendor on delivery risk, pricing fairness, stack fit, commercial terms, references, switching cost.
+- **[post-mortem](post-mortem)**. Retrospective method for shipped work, failed work, or incidents. Timeline, contributing factors, action items, no blame.
 
 ### ops
 
-- **[agenda-synthesis](ops/agenda-synthesis)**. Synthesize a daily or weekly agenda across calendars and orgs.
-- **[ticket-triage](ops/ticket-triage)**. Linear and Jira triage. Categorization, sequencing, and when to decline.
-- **[documentation-extraction](ops/documentation-extraction)**. Turn closed tickets, threads, and conversations into functional docs.
-- **[meeting-prep](ops/meeting-prep)**. Briefing before a meeting. Stakeholders, history, desired outcome, objections, opening move.
+- **[agenda-synthesis](agenda-synthesis)**. Synthesize a daily or weekly agenda across calendars and orgs.
+- **[ticket-triage](ticket-triage)**. Linear and Jira triage. Categorization, sequencing, and when to decline.
+- **[documentation-extraction](documentation-extraction)**. Turn closed tickets, threads, and conversations into functional docs.
+- **[meeting-prep](meeting-prep)**. Briefing before a meeting. Stakeholders, history, desired outcome, objections, opening move.
 
 ## Voice rules
 
@@ -69,22 +69,28 @@ Every skill in this repo applies the same voice rules. They are the through-line
 
 ## Installing
 
-These skills are designed for [Claude Code](https://claude.com/claude-code), but the method and templates are tool-agnostic.
+These skills are designed for Codex, but the method and templates are tool-agnostic.
 
-### Claude Code
+### Codex
 
-Clone into your project's `.claude/skills/` directory or reference individual skills directly:
+Clone the repository anywhere, then symlink or copy the skill directories into `~/.codex/skills/`:
 
 ```bash
-git clone https://github.com/federicoimparatta/operator-skills.git ~/operator-skills
+git clone https://github.com/federicoimparatta/operator-skills-codex.git ~/operator-skills-codex
 ```
 
 Then either:
 
-- **Per-project.** Symlink or copy the skills you want into `.claude/skills/` in a specific project.
-- **Global.** Symlink or copy into `~/.claude/skills/` to make them available everywhere.
+- **Selected skills.** Symlink or copy only the skills you want into `~/.codex/skills/`.
+- **All skills.** Symlink or copy every top-level skill directory into `~/.codex/skills/`.
 
-Each skill is a folder with a `SKILL.md` that Claude Code loads on demand.
+Or install all skills with:
+
+```bash
+~/operator-skills-codex/bootstrap.sh
+```
+
+Each skill is a folder with a `SKILL.md` that Codex loads on demand.
 
 ### Other tools
 
