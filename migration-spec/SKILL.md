@@ -150,6 +150,13 @@ Post-cutover is usually where migrations fail quietly. Plan:
 - `templates/es/migration-plan.md`: plan completo de migración.
 - `templates/es/parity-matrix.md`: matriz de paridad objeto por objeto.
 
+## Related skills
+
+- `prd-authoring`: use it instead when shipping a new feature inside an existing system, not moving systems.
+- `proposal-scoping`: use it when scoping a custom build with no legacy source.
+- `dashboard-spec`: use it when rebuilding a dashboard from the same data, not migrating the data.
+- `red-team-review`: run it on the cutover and rollback plan before execution.
+
 ## Anti-patterns
 
 This skill must never produce:

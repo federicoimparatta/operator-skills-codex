@@ -150,6 +150,12 @@ If the first two pages do not make the case that this bid is compliant and serio
 - `templates/es/compliance-matrix.md`: matriz de cumplimiento por requerimiento.
 - `templates/es/full-response.md`: estructura completa de respuesta a licitación.
 
+## Related skills
+
+- `proposal-scoping`: use it instead when the engagement has flexible scope, not a fixed procurement document.
+- `security-questionnaire`: use it for the security assessment that often ships alongside the RFP.
+- `vendor-evaluation`: the mirror of this skill, for when you are the buyer scoring vendors.
+
 ## Anti-patterns
 
 This skill must never produce:

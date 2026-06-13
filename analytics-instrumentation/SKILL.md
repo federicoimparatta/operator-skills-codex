@@ -172,6 +172,13 @@ Instrumentation drifts. Write how it gets changed.
 - `templates/es/feature-instrumentation-plan.md`: plan de instrumentación para una feature.
 - `templates/es/event-taxonomy-entry.md`: entrada en el catálogo de eventos.
 
+## Related skills
+
+- `dashboard-spec`: reach for it when the events feed an internal tool or admin view and you need to spec the views, not the tracking.
+- `data-reconciliation`: use it when two tools already disagree on a metric, before redefining events.
+- `prd-authoring`: instrumentation is a section inside the PRD; produce the section there, do not rewrite the PRD here.
+- `ux-audit`: pairs with this when usage metrics look wrong and you need to find the UX cause before reinstrumenting.
+
 ## Anti-patterns
 
 This skill must never produce:

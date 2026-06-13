@@ -142,6 +142,13 @@ Short list, with owner and deadline. Keep it honest. A proposal with no open que
 - `templates/es/proposal.md`: propuesta completa de feature.
 - `templates/es/one-pager.md`: propuesta corta para foros de decisión rápida.
 
+## Related skills
+
+- `prd-authoring`: move to it once the bet is approved and the feature needs spec detail.
+- `proposal-scoping`: use it instead when the feature is a client delivery, not an internal bet.
+- `roadmap-from-data`: use it when the question is sequencing many bets, not pitching one.
+- `red-team-review`: run it against the proposal before commitment to find where the bet breaks.
+
 ## Anti-patterns
 
 This skill must never produce:

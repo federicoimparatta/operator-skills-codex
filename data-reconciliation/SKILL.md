@@ -121,6 +121,8 @@ Common categories:
 - **Schema mismatch.** Same field name, different meaning.
 - **Broken upstream.** The disagreement is a symptom of an actual bug, not a definition issue.
 
+See `references/root-cause-tree.md` for the full set.
+
 ### Step 8. Decide the fix
 
 Four fixes, named explicitly:
@@ -149,6 +151,12 @@ File this next to the dashboard or the metric catalog, not in a personal doc.
 - `templates/en/definition-diff.md`: metric definition comparison for the long-term catalog.
 - `templates/es/reconciliation-report.md`: reporte completo de reconciliación con causa raíz y fix.
 - `templates/es/definition-diff.md`: diff de definición de métrica para el catálogo.
+
+## Related skills
+
+- `analytics-instrumentation`: use it when defining a metric from scratch, not reconciling two that disagree.
+- `dashboard-spec`: use it when the metric needs a view spec, not a variance investigation.
+- `post-mortem`: use it when the disagreement turns out to be an incident, not a definition gap.
 
 ## Anti-patterns
 

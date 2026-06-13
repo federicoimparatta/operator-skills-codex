@@ -87,6 +87,8 @@ A red team is more useful when it is exhaustive than when it is creative. Walk e
 
 This is not a threat model in the formal security sense. It is a failure-mode walk.
 
+See `references/failure-modes.md` for the full set.
+
 ### Step 4. Rate each finding on two axes
 
 Every finding carries:
@@ -140,6 +142,13 @@ The delivery is to a named decision maker, not a committee. The decision maker's
 - `templates/en/failure-mode-checklist.md`: the systematic walk-through used during the review.
 - `templates/es/review-report.md`: reporte de red team como se entrega.
 - `templates/es/failure-mode-checklist.md`: checklist sistemático usado durante la revisión.
+
+## Related skills
+
+- `post-mortem`: use it instead when the failure already happened and you need a retro.
+- `ux-audit`: use it when the target is a live user flow needing a research critique.
+- `migration-spec`: pairs with this to stress-test a cutover and rollback plan before execution.
+- `security-questionnaire`: pairs with this to pressure-test a security posture before an external review.
 
 ## Anti-patterns
 

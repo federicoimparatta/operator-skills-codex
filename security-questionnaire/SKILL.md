@@ -140,6 +140,12 @@ Every one of those becomes an action item before submission.
 - `templates/es/questionnaire-response.md`: estructura completa de respuesta al cuestionario.
 - `templates/es/control-register.md`: registro de controles reutilizable indexado por ID.
 
+## Related skills
+
+- `rfp-response`: use it when the security questions are part of a full RFP with a compliance matrix.
+- `vendor-evaluation`: the buyer-side mirror, for scoring a vendor's security posture.
+- `red-team-review`: run it on the security posture before an external review finds the gaps.
+
 ## Anti-patterns
 
 This skill must never produce:

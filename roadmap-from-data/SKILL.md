@@ -166,6 +166,13 @@ If any of the three cannot, fix it.
 - `templates/es/roadmap-brief.md`: brief completo de roadmap con temas, secuencia, y cadencia.
 - `templates/es/bet-card.md`: tarjeta de una apuesta para usar dentro del brief o sola.
 
+## Related skills
+
+- `prd-authoring`: move to it once a bet is chosen and the feature needs a spec.
+- `feature-proposal`: use it when pitching a single bet for approval, not sequencing the portfolio.
+- `proposal-scoping`: use it when the work is a client engagement with fixed deliverables.
+- `ticket-triage`: use it to clear the backlog at the ticket level once the roadmap sets direction.
+
 ## Anti-patterns
 
 This skill must never produce:

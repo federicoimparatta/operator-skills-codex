@@ -119,6 +119,12 @@ These observations belong in the triage output, not in a private note.
 - `templates/es/triage-session.md`: output completo de la sesión de triage.
 - `templates/es/decline-message.md`: template de mensaje de decline.
 
+## Related skills
+
+- `roadmap-from-data`: move to it when the queue is feeding a planning cycle, not a triage pass.
+- `post-mortem`: use it when the tickets are an incident tail that needs a retro, not just dispositions.
+- `ux-audit`: use it when a surface keeps generating misclassified tickets and the cause is UX.
+
 ## Anti-patterns
 
 This skill must never produce:

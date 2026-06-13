@@ -29,6 +29,9 @@ See [`PHILOSOPHY.md`](PHILOSOPHY.md) for the ten core concepts that shape every 
 - **[analytics-instrumentation](analytics-instrumentation)**. Event taxonomy, naming conventions, funnel definitions, and instrumentation from scratch.
 - **[ux-audit](ux-audit)**. Heuristic audit method that produces actionable tickets ranked by severity and surface area.
 - **[roadmap-from-data](roadmap-from-data)**. Convert dashboards and user behavior into a prioritized sequence. Avoid backlog theater.
+- **[okr-drafting](okr-drafting)**. Objectives as outcomes, key results as evidence. Name the bet, set kill criteria, reject task lists.
+- **[interview-synthesis](interview-synthesis)**. Turn interview notes into patterns and jobs. Separate behavior from preference, kill the assumption you loved.
+- **[competitive-teardown](competitive-teardown)**. Study what a competitor shipped, not what they claim. Feature matrix, what they bet on, the gap you can own.
 
 ### delivery
 
@@ -45,6 +48,7 @@ See [`PHILOSOPHY.md`](PHILOSOPHY.md) for the ten core concepts that shape every 
 - **[candidate-evaluation](candidate-evaluation)**. Score a candidate against a rubric of judgment, delivery, depth, ownership, failure fluency, communication.
 - **[vendor-evaluation](vendor-evaluation)**. Score a vendor on delivery risk, pricing fairness, stack fit, commercial terms, references, switching cost.
 - **[post-mortem](post-mortem)**. Retrospective method for shipped work, failed work, or incidents. Timeline, contributing factors, action items, no blame.
+- **[decision-record](decision-record)**. Lightweight ADR for product and ops decisions. Options, the bet, consequences accepted, revisit trigger.
 
 ### ops
 
@@ -52,6 +56,14 @@ See [`PHILOSOPHY.md`](PHILOSOPHY.md) for the ten core concepts that shape every 
 - **[ticket-triage](ticket-triage)**. Linear and Jira triage. Categorization, sequencing, and when to decline.
 - **[documentation-extraction](documentation-extraction)**. Turn closed tickets, threads, and conversations into functional docs.
 - **[meeting-prep](meeting-prep)**. Briefing before a meeting. Stakeholders, history, desired outcome, objections, opening move.
+- **[sprint-planning](sprint-planning)**. Capacity after meetings and on-call, sequence by uncertainty, commitment vs forecast, named owners.
+
+### comms
+
+- **[status-update](status-update)**. Weekly or cycle status update. Lead with the outcome that moved, not the task list.
+- **[exec-brief](exec-brief)**. One-page brief for leadership or the board. The bet, the number, the ask.
+- **[stakeholder-update](stakeholder-update)**. Async delivery-status update to a client or sponsor, plus an escalation note for slips.
+- **[incident-comms](incident-comms)**. Stakeholder-facing comms during an incident. Impact, status, next update time, no blame in real time.
 
 ## Voice rules
 

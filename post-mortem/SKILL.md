@@ -148,6 +148,13 @@ A post-mortem in a drawer is worse than no post-mortem. Define:
 - `templates/es/incident-post-mortem.md`: retro de incidente de producción.
 - `templates/es/project-retro.md`: retro de proyecto, lanzamiento, o iniciativa.
 
+## Related skills
+
+- `red-team-review`: use it instead when the plan has not executed yet and you want a pre-mortem.
+- `candidate-evaluation`: use it when the retro is on a failed hire and the rubric needs refining.
+- `vendor-evaluation`: use it when scoring an ongoing vendor rather than a past incident.
+- `documentation-extraction`: use it to turn the retro's runbook and doc gaps into durable docs.
+
 ## Anti-patterns
 
 This skill must never produce:

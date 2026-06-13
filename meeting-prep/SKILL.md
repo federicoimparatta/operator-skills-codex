@@ -133,6 +133,12 @@ The meeting does not end with the meeting.
 - `templates/es/meeting-brief.md`: brief para una reunión grupal.
 - `templates/es/one-on-one-brief.md`: brief para un uno a uno.
 
+## Related skills
+
+- `agenda-synthesis`: use it when producing the day or week plan across meetings, not prepping one.
+- `documentation-extraction`: use it after the meeting to turn notes into a durable doc.
+- `ticket-triage`: use it when the meeting is a backlog review and you need dispositions, not a brief.
+
 ## Anti-patterns
 
 This skill must never produce:

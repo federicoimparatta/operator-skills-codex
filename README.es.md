@@ -29,6 +29,9 @@ Ver [`PHILOSOPHY.es.md`](PHILOSOPHY.es.md) para los diez conceptos centrales que
 - **[analytics-instrumentation](analytics-instrumentation)**. Taxonomía de eventos, convenciones de naming, definiciones de funnel, e instrumentación desde cero.
 - **[ux-audit](ux-audit)**. Método de auditoría heurística que produce tickets accionables ranqueados por severidad y superficie.
 - **[roadmap-from-data](roadmap-from-data)**. Convertir dashboards y comportamiento de usuario en una secuencia priorizada. Evitar el teatro del backlog.
+- **[okr-drafting](okr-drafting)**. Objetivos como resultados, key results como evidencia. Nombrar la apuesta, fijar criterios de muerte, rechazar listas de tareas.
+- **[interview-synthesis](interview-synthesis)**. Convertir notas de entrevistas en patrones y jobs. Separar comportamiento de preferencia, matar la hipótesis que más te gustaba.
+- **[competitive-teardown](competitive-teardown)**. Estudiar lo que un competidor entregó, no lo que dice. Matriz de features, a qué apostaron, el hueco que podés tomar.
 
 ### delivery
 
@@ -45,6 +48,7 @@ Ver [`PHILOSOPHY.es.md`](PHILOSOPHY.es.md) para los diez conceptos centrales que
 - **[candidate-evaluation](candidate-evaluation)**. Evaluar un candidato contra una rúbrica de juicio, entrega, profundidad, ownership, soltura frente al error, comunicación.
 - **[vendor-evaluation](vendor-evaluation)**. Evaluar un proveedor por riesgo de entrega, precio justo, fit de stack, términos comerciales, referencias, costo de switching.
 - **[post-mortem](post-mortem)**. Método retrospectivo para trabajo entregado, trabajo fallido, o incidentes. Línea de tiempo, factores contribuyentes, action items, sin culpables.
+- **[decision-record](decision-record)**. ADR liviano para decisiones de producto y de ops. Opciones, la apuesta, consecuencias aceptadas, trigger para revisar.
 
 ### ops
 
@@ -52,6 +56,14 @@ Ver [`PHILOSOPHY.es.md`](PHILOSOPHY.es.md) para los diez conceptos centrales que
 - **[ticket-triage](ticket-triage)**. Triage en Linear y Jira. Categorización, secuenciado, y cuándo rechazar.
 - **[documentation-extraction](documentation-extraction)**. Convertir tickets cerrados, threads y conversaciones en documentación funcional.
 - **[meeting-prep](meeting-prep)**. Briefing antes de una reunión. Stakeholders, historia, outcome deseado, objeciones, movida de apertura.
+- **[sprint-planning](sprint-planning)**. Capacidad después de reuniones y on-call, secuenciar por incertidumbre, compromiso vs forecast, owners nombrados.
+
+### comms
+
+- **[status-update](status-update)**. Update de estado semanal o de ciclo. Arrancar por el resultado que se movió, no por la lista de tareas.
+- **[exec-brief](exec-brief)**. Brief de una página para liderazgo o el board. La apuesta, el número, el pedido.
+- **[stakeholder-update](stakeholder-update)**. Update async de estado de delivery a un cliente o sponsor, más una nota de escalación para los retrasos.
+- **[incident-comms](incident-comms)**. Comunicación hacia stakeholders durante un incidente. Impacto, estado, hora del próximo update, sin culpables en tiempo real.
 
 ## Voice rules
 

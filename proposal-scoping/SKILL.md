@@ -146,6 +146,13 @@ Before handing off, read the scope assuming you are the client's CFO. Can you te
 - `templates/es/proposal-tm.md`: engagement por tiempo y materiales.
 - `templates/es/proposal-fixed.md`: engagement de precio fijo.
 
+## Related skills
+
+- `prd-authoring`: use it when the work is a product spec, not a commercial scope.
+- `rfp-response`: use it instead when responding to a government or enterprise RFP with a compliance matrix.
+- `migration-spec`: use it when the engagement is a migration that needs parity, cutover, and rollback.
+- `vendor-evaluation`: the buyer-side counterpart, for choosing the vendor before scoping the work.
+
 ## Anti-patterns
 
 This skill must never produce:

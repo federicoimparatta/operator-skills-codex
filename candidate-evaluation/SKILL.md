@@ -170,6 +170,12 @@ This is the slowest feedback loop in product work. Most teams skip it. That is w
 - `references/rubric-en.md`: full scoring anchors per dimension, in English.
 - `references/rubric-es.md`: anchors de scoring por dimensión, en castellano.
 
+## Related skills
+
+- `vendor-evaluation`: use it when scoring a commercial provider, not a person.
+- `red-team-review`: run it on the rubric when you suspect it rewards fragile strengths.
+- `post-mortem`: use it to run a blameless retro on a bad hire and refine the rubric.
+
 ## Anti-patterns
 
 This skill must never produce:

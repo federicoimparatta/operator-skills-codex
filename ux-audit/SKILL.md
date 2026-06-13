@@ -89,6 +89,8 @@ Apply a product-focused heuristic set. The default set:
 
 Each finding is tagged with one primary heuristic. A second tag is allowed.
 
+See `references/heuristics.md` for the full set.
+
 ### Step 4. Rank by severity and surface area
 
 Two axes. Every finding carries both.
@@ -156,6 +158,13 @@ Before declaring the audit done, name one assumption the team held that the audi
 - `templates/en/ticket-from-finding.md`: single ticket derived from a finding.
 - `templates/es/audit-report.md`: reporte completo de auditoría.
 - `templates/es/ticket-from-finding.md`: ticket derivado de un hallazgo.
+
+## Related skills
+
+- `ticket-triage`: run it after the audit to decide which findings get fixed now versus later.
+- `analytics-instrumentation`: use it when the flow needs measuring, not heuristic review.
+- `prd-authoring`: move to it when a finding turns into a redesign that needs a spec.
+- `red-team-review`: use it instead when the target is a plan or system, not a live user flow.
 
 ## Anti-patterns
 

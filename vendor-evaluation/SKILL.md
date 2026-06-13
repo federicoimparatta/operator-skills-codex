@@ -170,6 +170,13 @@ A signed contract is not the end of the evaluation. Before signing, define:
 - `templates/es/scorecard.md`: scorecard por proveedor con evidencia y comparación.
 - `templates/es/decision-memo.md`: memo de decisión comprar o no comprar.
 
+## Related skills
+
+- `security-questionnaire`: use it when you are the vendor answering a buyer's assessment, not scoring vendors.
+- `rfp-response`: use it when responding to a procurement document rather than evaluating providers.
+- `candidate-evaluation`: the same scorecard discipline applied to hiring a person, not buying a vendor.
+- `proposal-scoping`: move to it once the vendor is chosen and the engagement needs scoping.
+
 ## Anti-patterns
 
 This skill must never produce:

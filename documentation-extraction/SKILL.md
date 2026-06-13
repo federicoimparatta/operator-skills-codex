@@ -136,6 +136,12 @@ A doc with no flagged gaps is either complete (rare) or pretending.
 - `templates/es/feature-doc.md`: documentación de feature.
 - `templates/es/runbook.md`: runbook operativo.
 
+## Related skills
+
+- `prd-authoring`: use it instead when documenting unshipped work that needs a spec.
+- `post-mortem`: use it when the source is an incident and you need a retro, not a doc.
+- `ticket-triage`: use it when the source artifacts are an open queue that needs dispositions first.
+
 ## Anti-patterns
 
 This skill must never produce:

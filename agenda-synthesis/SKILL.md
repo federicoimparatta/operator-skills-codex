@@ -118,6 +118,11 @@ Two defaults:
 - `templates/es/daily-agenda.md`: plan diario.
 - `templates/es/weekly-agenda.md`: plan semanal.
 
+## Related skills
+
+- `meeting-prep`: move to it when one meeting on the agenda needs a real briefing.
+- `ticket-triage`: use it when the queue to process is inbound tickets, not calendar items.
+
 ## Anti-patterns
 
 This skill must never produce:

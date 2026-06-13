@@ -130,6 +130,13 @@ Before handing off, read it as someone who was not in the conversation. If a sen
 - `templates/es/prd-lean.md`: etapa de discovery y shaping.
 - `templates/es/prd-full.md`: etapa de build y post-hoc.
 
+## Related skills
+
+- `feature-proposal`: use it first when the feature is a pre-scoping bet, not a committed build.
+- `proposal-scoping`: use it when scoping delivery work (time, phases, commercial), not product behavior.
+- `analytics-instrumentation`: cross-reference it to build the instrumentation section when the taxonomy does not yet exist.
+- `ticket-triage`: use it when the work is triaging existing tickets rather than writing a spec.
+
 ## Anti-patterns
 
 This skill must never produce:

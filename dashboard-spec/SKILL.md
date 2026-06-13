@@ -144,6 +144,13 @@ For support and admin tools, this section is not optional.
 - `templates/es/dashboard-spec.md`: especificación completa de dashboard.
 - `templates/es/view-definition.md`: definición de una vista dentro del dashboard.
 
+## Related skills
+
+- `analytics-instrumentation`: use it when the work is defining the events behind the views, not the views.
+- `data-reconciliation`: use it when the dashboard numbers disagree with another source.
+- `prd-authoring`: use it instead when specifying an end-user product feature, not an internal tool.
+- `migration-spec`: pairs with this when the dashboard is being rebuilt on a new data source.
+
 ## Anti-patterns
 
 This skill must never produce:
